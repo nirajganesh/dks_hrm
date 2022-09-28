@@ -1,0 +1,14 @@
+class Client_model
+{
+  late String id;
+  String? name;
+  String? person;
+  String? address;
+  String? contact_no;
+  String? email;
+  String? gst_no;
+  String? remarks;
+  String? balance;
+
+  Client_model(this.id,this.name,this.person,this.address,this.contact_no,this.email,this.gst_no,this.remarks,this.balance);
+}
